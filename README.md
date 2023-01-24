@@ -1,7 +1,7 @@
 # hw-02
 hw-02 - Static Webpage
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: file:///Users/aadyachaturvedi/Desktop/DS%204200/hw-02-aadya-preethi/index.html
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
