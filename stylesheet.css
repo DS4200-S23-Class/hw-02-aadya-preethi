@@ -1,0 +1,98 @@
+/* Stylesheet for hw-02 */
+
+/* Arial font*/
+body {
+	font-family: Arial;
+}
+
+/* Center the Header */
+h1, tr {
+	text-align: center;
+}
+
+/* Make a centered table */
+table{
+	width: 80%;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Add border to bottom of each row */
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add blue to header */
+th {
+  background-color: lightblue;
+  color: black;
+}
+
+/* Left Align the header and data types */
+h2, ul {
+	text-align: left;
+}
+
+/* Create image flex container */
+#pictures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+#pictures img {
+	margin-left: auto;
+	margin-right: auto;
+
+	/*Make Image grow and shrink dynamically*/
+	max-width: 100%;
+    height: auto;
+    width: 1100px; 
+}
+
+/* Make text below the picutres align to the left and be blue */
+p {
+	text-align: left;
+	color: darkblue;
+}
+
+/* Create flex container */
+#decoration {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+/* Adjust the color and opacity of the circles */
+circle {
+	fill: pink;
+	opacity: 50%;
+}
+
+/* Add hover effects to the shapes */
+circle:hover {
+	stroke: black;
+	stroke-width: 3px;
+}
+
+/* Adjust the color and display of the rectangles */
+rect {
+	fill: paleturquoise;
+	stroke: black;
+	stroke-width: 3px;
+}
+
+/* Add color effects when hovering over the shapes */
+rect:hover {
+	fill: darkred;
+}
+
+/* Center Acknowledgements*/
+h3 {
+	text-align: center;
+}
